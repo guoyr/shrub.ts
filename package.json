@@ -18,8 +18,8 @@
   "files": [
     "build/**/*"
   ],
-  "main": "build/index.js",
-  "types": "build/index.d.ts",
+  "main": "build/src/index.js",
+  "types": "build/src/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/evergreen-ci/shrub.ts"
