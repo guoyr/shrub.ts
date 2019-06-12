@@ -13,14 +13,19 @@
     "test": "mocha -r ts-node/register src/**/*.spec.ts src/tests/**"
   },
   "engines": {
-    "node": "4.0.0"
+    "node": "6.11.3"
   },
+  "files": [
+    "build/**/*"
+  ],
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/evergreen-ci/shrub.ts"
   },
   "keywords": [
-    "evergreen",
+    "evergreen-ci",
     "mongodb"
   ],
   "author": "MongoDB Inc.",
